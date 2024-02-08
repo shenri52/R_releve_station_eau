@@ -22,12 +22,8 @@ Les données publiques de l'API "Hydrométrie" sont issues de la Plate-forme HYD
 ## Fonctionnement
 
 1. Modifier le fichier "Liste_Station" dans le dossier "data" :
-       * nom_station : saisir le nom de la station
-       * num_station : saisir le numéro de la station
-       * hauteur : saisir H si la station délivre la hauteur d'eau sinon laisser vide
-       * debit : saisir Q si la station délivre le débit d'eau sinon laisser vide
-3. Modifier la valeur affectée à la variable "nb_releve" pour inndiquer le nombre de relevé souhaité
-4. Lancer le script intitulé "prog_releve_station" qui se trouve dans le dossier "script"
+2. Modifier la valeur affectée à la variable "nb_releve" pour inndiquer le nombre de relevé souhaité
+3. Lancer le script intitulé "prog_releve_station" qui se trouve dans le dossier "script"
 
 ## Résultat
 
