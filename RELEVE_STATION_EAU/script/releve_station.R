@@ -12,9 +12,6 @@
 # Chargement de la liste des stations
 liste_station <- read.csv("data/Liste_Station.csv", header = TRUE, sep=",")
 
-# Initialisation des variables
-nb_station <- count(liste_station)
-
 for (ii in 1:2)
 {
   # Initialisation de l'indice de la colonne avec la grandeur d'eau
@@ -29,7 +26,7 @@ for (ii in 1:2)
   # Initialisation des variables
   releve_station <- data.frame()
 
-  for (i in 1:nb_station$n)
+  for (i in 1:nrow(liste_station))
   {
     if(liste_station[i,g_hydro] != "")
       {
